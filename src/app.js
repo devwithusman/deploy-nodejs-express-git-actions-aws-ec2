@@ -11,7 +11,7 @@ app.get('/req', (req, res) => {
     res.send('Yo!')
 })
 
-app.get('/hello', (req, res) => {
+app.get('/hello-world', (req, res) => {
   res.status(200).json({
     message: "Hello World!"
   });
